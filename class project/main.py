@@ -15,7 +15,7 @@ with col1:
     FRAME_WINDOW = st.image([])
 
 with col2:
-    st.title("Answer")
+    st.title("Answer of the given question : ")
     output_text_area = st.subheader("")
 
 genai.configure(api_key="AIzaSyDW-Z7zBsuEztHRka2Tji97yDVx6Umuk3k")
